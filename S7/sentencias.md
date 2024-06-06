@@ -7,4 +7,4 @@ SELECT COUNT (*) - COUNT (country_of_origin) AS Productos_sin_pais_de_origen
 FROM product1
 ```
 - Captura:
-<img TAREAS-DB="./capturas/Sentence1.png" alt="drawing" width="500"/>
+<img TAREAS-DB="./S7/capturas/Sentence1.png" alt="drawing" width="500"/>
