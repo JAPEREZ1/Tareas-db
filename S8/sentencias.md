@@ -1,4 +1,4 @@
-# Tarea TAS7
+# Tarea TAS8
 
 ## Contar el número de productos de una categoría específica
 - Sentencia:
