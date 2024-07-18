@@ -18,8 +18,7 @@ BEFORE INSERT OR UPDATE ON client
 FOR EACH ROW
 EXECUTE FUNCTION validate_cedula();;
 ```
-- Captura:
-<img src="./capturas/1S.png" alt="Captura de pantalla" width="500"/>
+
 
 ## Crear un función y un trigger para que cada vez que se inserte un nuevo registro en la tabla item se disminuya el stock de la tabla product.
 
@@ -44,8 +43,7 @@ AFTER INSERT ON item
 FOR EACH ROW
 EXECUTE FUNCTION decrease_stock();
 ```
-- Captura:
-<img src="./capturas/1S.png" alt="Captura de pantalla" width="500"/>
+
 
 ## Crear un función y un trigger para la tabla invoice donde valide que el campo create_at sea del año actual (fecha sistema).
 
@@ -66,8 +64,7 @@ BEFORE INSERT OR UPDATE ON invoice
 FOR EACH ROW
 EXECUTE FUNCTION validate_invoice_date();
 ```
-- Captura:
-<img src="./capturas/1S.png" alt="Captura de pantalla" width="500"/>
+
 
 ## Crear un función y un trigger para la tabla client y validar que el correo tenga un @.
 - Sentencia:
@@ -86,4 +83,3 @@ BEFORE INSERT OR UPDATE ON client
 FOR EACH ROW
 EXECUTE FUNCTION validate_email();
 ```
-<img src="./capturas/1S.png" alt="Captura de pantalla" width="500"/>
